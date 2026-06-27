@@ -1,15 +1,16 @@
-```markdown
 # Shivam Rajput
 
 ### Data Science Intern Candidate | Machine Learning | NLP | GenAI/RAG
 
-I am a B.Tech Computer Science student specializing in **AI & ML**, building practical projects across **Data Science, Machine Learning, NLP, Forecasting, and GenAI/RAG**.
+I am a B.Tech Computer Science student specializing in **AI & ML**, building practical and interview-ready projects across **Data Science, Machine Learning, NLP, Forecasting, and GenAI/RAG**.
 
-My focus is on building honest, interview-ready projects that cover the complete workflow:
+My focus is on building complete project workflows:
 
 **Data Processing → Modeling → Evaluation → APIs → Dashboards → Docker → Documentation**
 
-I am currently targeting internship roles in **Data Science, Machine Learning, NLP, GenAI/RAG, and AI/ML Engineering**.
+I am currently targeting internship roles in:
+
+**Data Science · Machine Learning · NLP · GenAI/RAG · AI/ML Engineering**
 
 ---
 
@@ -17,9 +18,9 @@ I am currently targeting internship roles in **Data Science, Machine Learning, N
 
 | Project | Focus Area | Key Proof | Links |
 |---|---|---|---|
-| Customer Complaint Intelligence Platform | Large-scale analytics, NLP, forecasting | 15.95M complaints, 8–9 GB CSV, 3.57% MAPE, NLP classifiers | [GitHub](https://github.com/shivamrajput-ds/customer-complaint-intelligence) · [Demo](https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY) |
-| Enterprise RAG Assistant | GenAI/RAG, document Q&A, tabular analytics | PDF/CSV/DOCX/Excel/JSON/TXT ingestion, hybrid retrieval, reranking | [GitHub](https://github.com/shivamrajput-ds/enterprise-rag-assistant) · [Demo](https://youtu.be/Rvdz9DKtz5o?si=zK7lmp8zjTQTrQru) |
-| Fake Job Posting Detector | NLP classification, MLOps, explainability | 0.99 ROC-AUC, 0.88 fraud precision, 0.84 fraud recall, MLflow, Docker | [GitHub](https://github.com/shivamrajput-ds/fake-job-posting-detector) · [Demo](https://youtu.be/8XKoZl_qvmU?si=Fh2OOtMa_RO7EoGj) |
+| **Customer Complaint Intelligence Platform** | Large-scale analytics, NLP, forecasting | 15.95M complaints, 8–9 GB CSV, 3.57% MAPE, NLP classifiers | [GitHub](https://github.com/shivamrajput-ds/customer-complaint-intelligence) · [Demo](https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY) |
+| **Enterprise RAG Assistant** | GenAI/RAG, document Q&A, tabular analytics | PDF/CSV/DOCX/Excel/JSON/TXT ingestion, hybrid retrieval, reranking | [GitHub](https://github.com/shivamrajput-ds/enterprise-rag-assistant) · [Demo](https://youtu.be/Rvdz9DKtz5o?si=zK7lmp8zjTQTrQru) |
+| **Fake Job Posting Detector** | NLP classification, MLOps, explainability | 0.99 ROC-AUC, 0.88 fraud precision, 0.84 fraud recall, MLflow, Docker | [GitHub](https://github.com/shivamrajput-ds/fake-job-posting-detector) · [Demo](https://youtu.be/8XKoZl_qvmU?si=Fh2OOtMa_RO7EoGj) |
 
 ---
 
@@ -120,34 +121,6 @@ ChromaDB · Supabase PostgreSQL · Matplotlib · Seaborn · Plotly
 
 **Foundations**  
 Statistics Fundamentals · DSA · DBMS · Neural Network Concepts · CNN/RNN/LSTM/GRU and Transformer Fundamentals
-
----
-
-## What I Can Explain in Interviews
-
-I focus on understanding and explaining my projects honestly, including:
-
-- How I processed large CSV data using chunking and Parquet
-- Why TF-IDF and Logistic Regression worked well for NLP classification
-- Why issue classification is harder than product classification
-- How forecasting was validated using a holdout window
-- How hybrid retrieval combines keyword and semantic search
-- Why CrossEncoder reranking improves RAG context quality
-- How FastAPI serves ML/RAG systems
-- How Docker helps with reproducible project execution
-- How to discuss limitations without overclaiming
-
----
-
-## Currently Strengthening
-
-I am currently improving the areas most important for Data Science and ML interviews:
-
-- Advanced SQL for analytics
-- Statistics, probability, hypothesis testing, and A/B testing
-- ML model evaluation, error analysis, and leakage prevention
-- RAG evaluation and retrieval-quality testing
-- Practical Deep Learning implementation with TensorFlow/Keras
 
 ---
 
