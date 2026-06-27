@@ -128,12 +128,14 @@ Statistics Fundamentals · DSA · DBMS · Neural Network Concepts · CNN/RNN/LST
 
 **LeetCode:** 511+ problems solved  
 
+I actively practice problem solving for coding interviews, with focus on core data structures and pattern-based questions.
+
 **Focus Areas:**  
 Arrays · Strings · Stack · Queue · Linked List · HashMap · HashSet · Trees · Heap · Basic Recursion · SQL
 
 [LeetCode Profile](https://leetcode.com/u/ShivamSynapse/)
 
-``
+---
 
 ## Profiles
 
