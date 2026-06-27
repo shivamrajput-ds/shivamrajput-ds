@@ -127,11 +127,13 @@ Statistics Fundamentals · DSA · DBMS · Neural Network Concepts · CNN/RNN/LST
 ## Coding Practice
 
 **LeetCode:** 511+ problems solved  
-**Focus Areas:** Arrays, Strings, SQL, Dynamic Programming, Graphs, Backtracking, and interview-style problem solving
+
+**Focus Areas:**  
+Arrays · Strings · Stack · Queue · Linked List · HashMap · HashSet · Trees · Heap · Basic Recursion · SQL
 
 [LeetCode Profile](https://leetcode.com/u/ShivamSynapse/)
 
----
+``
 
 ## Profiles
 
