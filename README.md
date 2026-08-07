@@ -1,137 +1,190 @@
+<div align="center">
+
 # Shivam Rajput
 
-### Data Science Intern Candidate | Machine Learning | NLP | GenAI/RAG
+### Junior Data Scientist · Applied ML & AI Systems
 
-I am a B.Tech Computer Science student specializing in **AI & ML**, building practical and interview-ready projects across **Data Science, Machine Learning, NLP, Forecasting, and GenAI/RAG**.
+**I turn large, messy datasets into tested decisions.**
 
-My focus is on building complete project workflows:
+Final-year B.Tech CSE (AI & ML) student building end-to-end systems across
+**Data Science · Statistics · Machine Learning · NLP · Applied AI**
 
-**Data Processing → Modeling → Evaluation → APIs → Dashboards → Docker → Documentation**
+**Open to Data Science, Machine Learning, NLP, and Applied AI internships.**
 
-I am currently targeting internship roles in:
+[Portfolio](https://shivamrajput-ds.github.io/portfolio-website/) ·
+[LinkedIn](https://www.linkedin.com/in/shivam-rajput-b0407632b/) ·
+[LeetCode](https://leetcode.com/u/ShivamSynapse/) ·
+[Kaggle](https://www.kaggle.com/shivamja)
 
-**Data Science · Machine Learning · NLP · GenAI/RAG · AI/ML Engineering**
-
----
-
-## Portfolio Snapshot
-
-| Project | Focus Area | Key Proof | Links |
-|---|---|---|---|
-| **Customer Complaint Intelligence Platform** | Large-scale analytics, NLP, forecasting | 15.95M complaints, 8–9 GB CSV, 3.57% MAPE, NLP classifiers | [GitHub](https://github.com/shivamrajput-ds/customer-complaint-intelligence) · [Demo](https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY) |
-| **Enterprise RAG Assistant** | GenAI/RAG, document Q&A, tabular analytics | PDF/CSV/DOCX/Excel/JSON/TXT ingestion, hybrid retrieval, reranking | [GitHub](https://github.com/shivamrajput-ds/enterprise-rag-assistant) · [Demo](https://youtu.be/Rvdz9DKtz5o?si=zK7lmp8zjTQTrQru) |
-| **Fake Job Posting Detector** | NLP classification, MLOps, explainability | 0.99 ROC-AUC, 0.88 fraud precision, 0.84 fraud recall, MLflow, Docker | [GitHub](https://github.com/shivamrajput-ds/fake-job-posting-detector) · [Demo](https://youtu.be/8XKoZl_qvmU?si=Fh2OOtMa_RO7EoGj) |
+</div>
 
 ---
 
-## Featured Projects
+## About Me
 
-### Customer Complaint Intelligence Platform  
-**Large-Scale Data Science + NLP + Forecasting**
+I enjoy problems where the difficult part is not simply training a model, but making the complete path from **raw data → evidence → decision** reliable.
 
-Built a complaint intelligence platform on the **CFPB Consumer Complaint dataset** to analyze complaint trends, company risk, issue growth, forecasting signals, and complaint routing.
+My work currently spans:
 
-**Highlights**
-- Processed **15.95M complaints** from an **8–9 GB raw CSV**
-- Used chunked preprocessing and **Parquet storage** for memory-efficient analytics
-- Built executive dashboards for product, issue, company, geography, response, and narrative analysis
-- Designed company risk scoring using complaint volume, untimely response rate, and resolution delay
-- Added driver analysis, YoY growth tracking, and Prophet-based forecasting
-- Achieved **3.57% MAPE** on forecasting holdout validation
-- Trained NLP routing classifiers:
-  - **75.28% Product accuracy**
-  - **62.39% Issue accuracy**
+* **Large-scale Data Science** — processing millions of records into decision-ready analytics
+* **Statistical experimentation** — measuring treatment effects with uncertainty and practical significance
+* **ML reliability** — detecting data and modeling risks before training
+* **Applied AI** — combining deterministic analytics with retrieval, reranking, and grounded generation
 
-**Tech Stack**  
-Python · Pandas · NumPy · PyArrow · Parquet · scikit-learn · TF-IDF · Logistic Regression · Prophet · Streamlit · Docker
-
-**Links**  
-[Repository](https://github.com/shivamrajput-ds/customer-complaint-intelligence) · [YouTube Demo](https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY)
+> **Evidence before claims. Baselines before complexity. Limitations documented, not hidden.**
 
 ---
 
-### Enterprise RAG Assistant  
-**GenAI Document Q&A + Tabular Analytics**
+# Selected Work
 
-Built a multi-format RAG assistant for document question answering and structured analytics across documents and spreadsheet-like files.
+## 01 · Customer Complaint Intelligence Platform
 
-**Highlights**
-- Supports **PDF, CSV, DOCX, Excel, JSON, and TXT** ingestion
-- Implemented hybrid retrieval using **vector search + BM25**
-- Added query expansion, deduplication, and **CrossEncoder reranking**
-- Built a Pandas Analytics Engine for CSV/Excel questions
-- Supports counts, filters, comparisons, top/bottom records, and numeric conditions
-- Integrated **FastAPI backend** with **Streamlit frontend**
-- Added source visibility, retrieved chunks, response-time tracking, and feedback capture
+**Large-Scale Analytics · NLP · Forecasting**
 
-**Tech Stack**  
-Python · FastAPI · Streamlit · ChromaDB · HuggingFace embeddings · BM25 · CrossEncoder · Groq LLM · Supabase PostgreSQL · Docker
+Built an end-to-end intelligence platform on the CFPB Consumer Complaint dataset to transform a very large raw dataset into analytics, risk signals, forecasts, NLP routing, and business recommendations.
 
-**Links**  
-[Repository](https://github.com/shivamrajput-ds/enterprise-rag-assistant) · [YouTube Demo](https://youtu.be/Rvdz9DKtz5o?si=zK7lmp8zjTQTrQru)
+* Processed **15.95M complaint records** from an **8–9 GB raw CSV**
+* Built chunked preprocessing and reusable **Parquet** analytical storage
+* Developed product, issue, company, geography, response, and narrative analytics
+* Trained TF-IDF + Logistic Regression NLP routing models
+* Achieved **3.57% MAPE** on a documented six-month forecasting holdout
+* Added risk scoring, growth analysis, forecasting, and **14/14 core unit tests**
 
----
+**Core Stack:** `Python` · `Pandas` · `PyArrow` · `scikit-learn` · `Prophet` · `Streamlit` · `Docker`
 
-### Fake Job Posting Detector  
-**NLP Classification + MLOps + Explainability**
-
-Built an end-to-end NLP classification system to detect fraudulent job postings using classical NLP and supervised machine learning.
-
-**Highlights**
-- Worked on a **17,880-row, 18-column** job posting dataset
-- Compared **Logistic Regression, LinearSVC, and Naive Bayes**
-- Used **TF-IDF features** for text classification
-- Final model: **TF-IDF + Logistic Regression**
-- Achieved:
-  - **0.99 ROC-AUC**
-  - **0.88 fraud precision**
-  - **0.84 fraud recall**
-  - **0.86 fraud F1-score**
-- Added MLflow experiment tracking
-- Built FastAPI prediction backend and Streamlit dashboard
-- Added Docker support and global/local feature explainability
-
-**Tech Stack**  
-Python · Pandas · scikit-learn · TF-IDF · Logistic Regression · LinearSVC · Naive Bayes · MLflow · FastAPI · Streamlit · Docker
-
-**Links**  
-[Repository](https://github.com/shivamrajput-ds/fake-job-posting-detector) · [YouTube Demo](https://youtu.be/8XKoZl_qvmU?si=Fh2OOtMa_RO7EoGj)
+[Repository](https://github.com/shivamrajput-ds/customer-complaint-intelligence) ·
+[Demo](https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY) ·
+[Evaluation](https://github.com/shivamrajput-ds/customer-complaint-intelligence/blob/main/docs/evaluation.md)
 
 ---
 
-## Technical Skills
+## 02 · Marketing A/B Testing & Experiment Analysis
 
-**Programming & Data**  
-Python · SQL · Pandas · NumPy · PyArrow · Parquet · OOP
+**Statistics · Experimentation · Business Decision-Making**
 
-**Machine Learning**  
-scikit-learn · Logistic Regression · LinearSVC · Naive Bayes · Random Forest · Gradient Boosting · Feature Engineering · Model Evaluation
+Analyzed a controlled marketing experiment to determine whether advertising improved conversion over a PSA control group.
 
-**Classical NLP**  
-Text Preprocessing · TF-IDF · n-grams · Text Classification · Topic Modeling · Model Explainability
+* Evaluated **588,101 users**
+* Advertisement conversion: **2.5547%**
+* PSA conversion: **1.7854%**
+* Absolute uplift: **+0.7692 percentage points**
+* Relative uplift: **+43.09%**
+* 95% uplift interval: **+0.5951 to +0.9434 pp**
+* Approximately **130 users per additional conversion**
+* Used hypothesis testing, effect sizes, simulation, logistic-regression consistency checks, and power analysis
 
-**GenAI / RAG**  
-RAG Pipelines · Vector Search · BM25 · Hybrid Retrieval · Query Expansion · CrossEncoder Reranking · Prompt Engineering · LLM Integration
+**Decision:** The treatment produced a statistically reliable conversion improvement, while ROI was intentionally not claimed without campaign-cost and customer-value inputs.
 
-**Apps & MLOps**  
-FastAPI · REST APIs · Streamlit · Docker · Docker Hub · MLflow · Git · GitHub · Testing · CI/CD Basics
+**Core Stack:** `Python` · `Pandas` · `SciPy` · `Statsmodels` · `Matplotlib` · `Statistical Inference`
 
-**Databases & Visualization**  
-ChromaDB · Supabase PostgreSQL · Matplotlib · Seaborn · Plotly
-
-**Foundations**  
-Statistics Fundamentals · DSA · DBMS · Neural Network Concepts · CNN/RNN/LSTM/GRU and Transformer Fundamentals
+[Repository](https://github.com/shivamrajput-ds/marketing-ab-testing-analysis)
 
 ---
 
-## Coding Practice
+## 03 · Agentic ML Audit Copilot
 
-**LeetCode:** 511+ problems solved  
+**ML Reliability · Human-in-the-Loop · MLOps**
 
-I actively practice problem solving for coding interviews, with focus on core data structures and pattern-based questions.
+Built a pre-training audit workflow that evaluates whether tabular data is sufficiently reliable for baseline modeling before allowing the workflow to continue.
 
-**Focus Areas:**  
-Arrays · Strings · Stack · Queue · Linked List · HashMap · HashSet · Trees · Heap · Basic Recursion · SQL
+`Dataset → Profiling → Risk Checks → Human Review → Baselines → MLflow → SHAP → Report`
+
+* Detects data-quality, target-leakage, class-imbalance, and modeling risks
+* Uses deterministic Python for ML calculations and audit decisions
+* Pauses risky workflows at a **human review gate**
+* Compares baseline models instead of pretending to be AutoML
+* Tracks experiments with **MLflow**
+* Provides model evidence using **SHAP**
+* Uses the LLM only for grounded explanations, reports, and Q&A
+* Includes automated pytest coverage, API serving, and Docker packaging
+
+**Core Stack:** `Python` · `scikit-learn` · `LangGraph` · `MLflow` · `SHAP` · `FastAPI` · `Streamlit` · `Docker`
+
+[Repository](https://github.com/shivamrajput-ds/Agentic-ML-Audit-Copilot) ·
+[Live App](https://shivamrajput-ds-agentic-ml-audit-copilo-appstreamlit-app-joxap5.streamlit.app/) ·
+[Walkthrough](https://youtu.be/kFzNam74QBc)
+
+---
+
+## 04 · Enterprise RAG Assistant
+
+**Hybrid Retrieval · Exact Analytics · Grounded AI**
+
+Built an enterprise document assistant that separates exact structured analytics from semantic document retrieval instead of forcing every question through the same RAG pipeline.
+
+**Structured queries**
+
+`CSV / Excel → Query Router → Pandas Analytics → Exact Result`
+
+**Semantic queries**
+
+`Documents → BGE + BM25 → Fusion → CrossEncoder → Grounded Answer + Citations`
+
+* Supports **PDF, DOCX, CSV, JSON, TXT, XLS, and XLSX**
+* Combines BGE dense retrieval with **BM25 lexical retrieval**
+* Adds query expansion, fusion, deduplication, and CrossEncoder reranking
+* Routes structured questions to deterministic **Pandas analytics**
+* Preserves source evidence and fallback behavior
+* Uses a **FastAPI backend with React + Vite frontend**
+* Supports Docker workflows and feedback persistence
+
+### Evaluation
+
+**29-case strict hybrid RAGAS evaluation**
+
+* Composite: **0.947**
+* Faithfulness: **0.966**
+* Context Precision: **1.000**
+* Context Recall: **1.000**
+* Tier: **PRODUCTION_STRONG**
+
+A separate **1,642-case production benchmark** is documented independently. Final acceptance is intentionally not claimed while its latency gate remains open.
+
+**Core Stack:** `Python` · `FastAPI` · `React/Vite` · `BGE` · `BM25` · `CrossEncoder` · `ChromaDB` · `Pandas` · `Docker`
+
+[Repository](https://github.com/shivamrajput-ds/enterprise-rag-assistant) ·
+[Walkthrough](https://youtu.be/Rvdz9DKtz5o) ·
+[Evaluation](https://github.com/shivamrajput-ds/enterprise-rag-assistant/blob/main/docs/EVALUATION_REPORT.md)
+
+---
+
+# Core Toolkit
+
+**Data & Statistics**
+Python · SQL · Pandas · NumPy · PyArrow · Parquet · EDA · A/B Testing · Confidence Intervals · Hypothesis Testing · Forecasting
+
+**Machine Learning & NLP**
+scikit-learn · Classification · Regression · Cross-validation · Feature Engineering · Model Evaluation · TF-IDF · Text Classification · Topic Modeling · SHAP
+
+**Applied AI**
+LangGraph · Embeddings · BM25 · Hybrid Retrieval · CrossEncoder Reranking · ChromaDB · Grounded Generation · Human-in-the-Loop Workflows
+
+**Engineering & MLOps**
+FastAPI · REST APIs · Streamlit · Docker · MLflow · pytest · Ruff · Git · GitHub Actions
+
+---
+
+## Engineering Principles
+
+**Baseline before complexity**
+Start with the simplest defensible approach and add complexity only when evidence justifies it.
+
+**Evaluation before claims**
+Report holdout performance, uncertainty, failure cases, and relevant baselines instead of relying on headline accuracy.
+
+**Deterministic systems before LLM judgment**
+Use code for calculations and business rules; use LLMs where language understanding or explanation genuinely adds value.
+
+**Limitations belong in the project**
+A project should clearly state what was measured, what remains unverified, and what it cannot claim.
+
+---
+
+## Coding
+
+**LeetCode: 511+ problems solved**
+
+Focus: Arrays · Strings · Hashing · Stack/Queue · Linked Lists · Trees · Heaps · Recursion · SQL
 
 [LeetCode Profile](https://leetcode.com/u/ShivamSynapse/)
 
@@ -139,8 +192,8 @@ Arrays · Strings · Stack · Queue · Linked List · HashMap · HashSet · Tree
 
 ## Profiles
 
+[Portfolio](https://shivamrajput-ds.github.io/portfolio-website/) ·
 [LinkedIn](https://www.linkedin.com/in/shivam-rajput-b0407632b/) ·
-[GitHub](https://github.com/shivamrajput-ds) ·
 [Kaggle](https://www.kaggle.com/shivamja) ·
 [Docker Hub](https://hub.docker.com/u/shivamrajput130) ·
 [YouTube](https://youtube.com/@shivamrajputds?si=n_NyC-mHNO6MWCr0)
@@ -149,10 +202,13 @@ Arrays · Strings · Stack · Queue · Linked List · HashMap · HashSet · Tree
 
 ## Contact
 
-**Email:** shivamrajput.datascientist@gmail.com  
+**Email:** [shivamrajput.datascientist@gmail.com](mailto:shivamrajput.datascientist@gmail.com)
 **LinkedIn:** [Shivam Rajput](https://www.linkedin.com/in/shivam-rajput-b0407632b/)
 
 ---
 
-> Building honest, practical, and interview-ready Data Science / ML / NLP / GenAI projects.
-```
+<div align="center">
+
+### Building Data Science systems where the evidence is as important as the model.
+
+</div>
