@@ -20,18 +20,20 @@ Final-year B.Tech CSE (AI & ML) student building end-to-end systems across
 
 ---
 
-## About Me
+## What I Work On
 
-I enjoy problems where the difficult part is not simply training a model, but making the complete path from **raw data → evidence → decision** reliable.
+I like problems where the goal is not simply to train a model, but to build a reliable path from:
 
-My work currently spans:
+**Raw Data → Analysis → Modeling → Evaluation → Decision**
 
-* **Large-scale Data Science** — processing millions of records into decision-ready analytics
-* **Statistical experimentation** — measuring treatment effects with uncertainty and practical significance
-* **ML reliability** — detecting data and modeling risks before training
+My work currently focuses on:
+
+* **Large-scale Data Science** — turning millions of records into decision-ready analytics
+* **Statistical Experimentation** — measuring treatment effects with uncertainty and practical significance
+* **ML Reliability** — identifying data, leakage, imbalance, and modeling risks before training
 * **Applied AI** — combining deterministic analytics with retrieval, reranking, and grounded generation
 
-> **Evidence before claims. Baselines before complexity. Limitations documented, not hidden.**
+> **Evidence before claims · Baselines before complexity · Limitations documented, not hidden**
 
 ---
 
@@ -41,16 +43,19 @@ My work currently spans:
 
 **Large-Scale Analytics · NLP · Forecasting**
 
-Built an end-to-end intelligence platform on the CFPB Consumer Complaint dataset to transform a very large raw dataset into analytics, risk signals, forecasts, NLP routing, and business recommendations.
+Built an end-to-end intelligence platform on the CFPB Consumer Complaint dataset to transform a very large raw dataset into analytical, forecasting, NLP, and risk signals for decision-making.
+
+**Key Evidence**
 
 * Processed **15.95M complaint records** from an **8–9 GB raw CSV**
-* Built chunked preprocessing and reusable **Parquet** analytical storage
+* Built chunked preprocessing and reusable **Parquet-based analytical storage**
 * Developed product, issue, company, geography, response, and narrative analytics
-* Trained TF-IDF + Logistic Regression NLP routing models
+* Trained TF-IDF + Logistic Regression models for complaint routing
 * Achieved **3.57% MAPE** on a documented six-month forecasting holdout
 * Added risk scoring, growth analysis, forecasting, and **14/14 core unit tests**
 
-**Core Stack:** `Python` · `Pandas` · `PyArrow` · `scikit-learn` · `Prophet` · `Streamlit` · `Docker`
+**Stack**
+`Python` · `Pandas` · `PyArrow` · `scikit-learn` · `Prophet` · `Streamlit` · `Docker`
 
 [Repository](https://github.com/shivamrajput-ds/customer-complaint-intelligence) ·
 [Demo](https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY) ·
@@ -62,7 +67,9 @@ Built an end-to-end intelligence platform on the CFPB Consumer Complaint dataset
 
 **Statistics · Experimentation · Business Decision-Making**
 
-Analyzed a controlled marketing experiment to determine whether advertising improved conversion over a PSA control group.
+Analyzed a controlled marketing experiment to determine whether advertising produced a meaningful conversion improvement over a PSA control group.
+
+**Key Evidence**
 
 * Evaluated **588,101 users**
 * Advertisement conversion: **2.5547%**
@@ -71,11 +78,14 @@ Analyzed a controlled marketing experiment to determine whether advertising impr
 * Relative uplift: **+43.09%**
 * 95% uplift interval: **+0.5951 to +0.9434 pp**
 * Approximately **130 users per additional conversion**
-* Used hypothesis testing, effect sizes, simulation, logistic-regression consistency checks, and power analysis
+* Used hypothesis testing, confidence intervals, effect sizes, simulation, logistic-regression consistency checks, and power analysis
 
-**Decision:** The treatment produced a statistically reliable conversion improvement, while ROI was intentionally not claimed without campaign-cost and customer-value inputs.
+**Decision**
 
-**Core Stack:** `Python` · `Pandas` · `SciPy` · `Statsmodels` · `Matplotlib` · `Statistical Inference`
+The experiment provides strong evidence of higher conversion under advertising, while ROI is intentionally not claimed without campaign-cost and customer-value inputs.
+
+**Stack**
+`Python` · `Pandas` · `SciPy` · `Statsmodels` · `Matplotlib` · `Statistical Inference`
 
 [Repository](https://github.com/shivamrajput-ds/marketing-ab-testing-analysis)
 
@@ -85,20 +95,25 @@ Analyzed a controlled marketing experiment to determine whether advertising impr
 
 **ML Reliability · Human-in-the-Loop · MLOps**
 
-Built a pre-training audit workflow that evaluates whether tabular data is sufficiently reliable for baseline modeling before allowing the workflow to continue.
+Built a pre-training audit system that evaluates whether tabular data is sufficiently reliable for baseline modeling before allowing the workflow to continue.
+
+**Workflow**
 
 `Dataset → Profiling → Risk Checks → Human Review → Baselines → MLflow → SHAP → Report`
+
+**Key Capabilities**
 
 * Detects data-quality, target-leakage, class-imbalance, and modeling risks
 * Uses deterministic Python for ML calculations and audit decisions
 * Pauses risky workflows at a **human review gate**
 * Compares baseline models instead of pretending to be AutoML
 * Tracks experiments with **MLflow**
-* Provides model evidence using **SHAP**
+* Provides explainability using **SHAP**
 * Uses the LLM only for grounded explanations, reports, and Q&A
 * Includes automated pytest coverage, API serving, and Docker packaging
 
-**Core Stack:** `Python` · `scikit-learn` · `LangGraph` · `MLflow` · `SHAP` · `FastAPI` · `Streamlit` · `Docker`
+**Stack**
+`Python` · `scikit-learn` · `LangGraph` · `MLflow` · `SHAP` · `FastAPI` · `Streamlit` · `Docker`
 
 [Repository](https://github.com/shivamrajput-ds/Agentic-ML-Audit-Copilot) ·
 [Live App](https://shivamrajput-ds-agentic-ml-audit-copilo-appstreamlit-app-joxap5.streamlit.app/) ·
@@ -110,21 +125,23 @@ Built a pre-training audit workflow that evaluates whether tabular data is suffi
 
 **Hybrid Retrieval · Exact Analytics · Grounded AI**
 
-Built an enterprise document assistant that separates exact structured analytics from semantic document retrieval instead of forcing every question through the same RAG pipeline.
+Built an enterprise document assistant that separates exact structured analytics from semantic document retrieval instead of forcing every query through a single RAG path.
 
-**Structured queries**
+**Structured Queries**
 
 `CSV / Excel → Query Router → Pandas Analytics → Exact Result`
 
-**Semantic queries**
+**Semantic Queries**
 
 `Documents → BGE + BM25 → Fusion → CrossEncoder → Grounded Answer + Citations`
+
+**Key Capabilities**
 
 * Supports **PDF, DOCX, CSV, JSON, TXT, XLS, and XLSX**
 * Combines BGE dense retrieval with **BM25 lexical retrieval**
 * Adds query expansion, fusion, deduplication, and CrossEncoder reranking
 * Routes structured questions to deterministic **Pandas analytics**
-* Preserves source evidence and fallback behavior
+* Preserves source evidence, citations, and fallback behavior
 * Uses a **FastAPI backend with React + Vite frontend**
 * Supports Docker workflows and feedback persistence
 
@@ -140,7 +157,8 @@ Built an enterprise document assistant that separates exact structured analytics
 
 A separate **1,642-case production benchmark** is documented independently. Final acceptance is intentionally not claimed while its latency gate remains open.
 
-**Core Stack:** `Python` · `FastAPI` · `React/Vite` · `BGE` · `BM25` · `CrossEncoder` · `ChromaDB` · `Pandas` · `Docker`
+**Stack**
+`Python` · `FastAPI` · `React/Vite` · `BGE` · `BM25` · `CrossEncoder` · `ChromaDB` · `Pandas` · `Docker`
 
 [Repository](https://github.com/shivamrajput-ds/enterprise-rag-assistant) ·
 [Walkthrough](https://youtu.be/Rvdz9DKtz5o) ·
@@ -166,17 +184,21 @@ FastAPI · REST APIs · Streamlit · Docker · MLflow · pytest · Ruff · Git �
 
 ## Engineering Principles
 
-**Baseline before complexity**
+### Baseline before complexity
+
 Start with the simplest defensible approach and add complexity only when evidence justifies it.
 
-**Evaluation before claims**
-Report holdout performance, uncertainty, failure cases, and relevant baselines instead of relying on headline accuracy.
+### Evaluation before claims
 
-**Deterministic systems before LLM judgment**
-Use code for calculations and business rules; use LLMs where language understanding or explanation genuinely adds value.
+Use holdout performance, uncertainty, baselines, and failure analysis instead of relying on headline metrics alone.
 
-**Limitations belong in the project**
-A project should clearly state what was measured, what remains unverified, and what it cannot claim.
+### Deterministic systems before LLM judgment
+
+Use code for calculations, validation, and business rules; use LLMs where language understanding or explanation genuinely adds value.
+
+### Limitations belong in the project
+
+Clearly state what was measured, what remains unverified, and what the system cannot claim.
 
 ---
 
@@ -184,7 +206,7 @@ A project should clearly state what was measured, what remains unverified, and w
 
 **LeetCode: 511+ problems solved**
 
-Focus: Arrays · Strings · Hashing · Stack/Queue · Linked Lists · Trees · Heaps · Recursion · SQL
+Arrays · Strings · Hashing · Stack/Queue · Linked Lists · Trees · Heaps · Recursion · SQL
 
 [LeetCode Profile](https://leetcode.com/u/ShivamSynapse/)
 
@@ -202,7 +224,7 @@ Focus: Arrays · Strings · Hashing · Stack/Queue · Linked Lists · Trees · H
 
 ## Contact
 
-**Email:** [shivamrajput.datascientist@gmail.com](mailto:shivamrajput.datascientist@gmail.com)
+**Email:** [shivam.x.rajput1308@gmail.com](mailto:shivam.x.rajput1308@gmail.com)
 **LinkedIn:** [Shivam Rajput](https://www.linkedin.com/in/shivam-rajput-b0407632b/)
 
 ---
